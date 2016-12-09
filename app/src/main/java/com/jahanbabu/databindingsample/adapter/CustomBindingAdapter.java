@@ -1,4 +1,4 @@
-package com.jahanbabu.khoj.adapter;
+package com.jahanbabu.databindingsample.adapter;
 
 import android.databinding.BindingAdapter;
 import android.view.View;
