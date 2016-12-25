@@ -88,7 +88,6 @@ public class MainActivity extends AppCompatActivity {
 
     private void populateListView() {
         recyclerView = (RecyclerView) findViewById(R.id.recycler_view);
-        recyclerView.setNestedScrollingEnabled(false);
         ProductsAdapter productsAdapter = new ProductsAdapter(blushes);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
         recyclerView.setAdapter(productsAdapter);
